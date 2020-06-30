@@ -20,7 +20,7 @@
 aside {
   background-color: #000000;
   width: 200px;
-  height: 85vh;
+  height: 90vh;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -88,12 +88,23 @@ aside .aside-bottom hr {
 
 main {
   background-color: pink;
-  height: 85vh;
+  height: 90vh;
   width: calc(100% - 200px);
 }
 
 .banner {
   background-color: #282828;
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner .banner-box {
+
+  width: 300px;
+  height: 100%;
+  border: 1px solid tomato;
 }

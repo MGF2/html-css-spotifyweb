@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-top {
+  display: flex;
+}
+
+aside {
+  background-color: lightgreen;
+  width: 200px;
+  height: 85vh;
+}
+
+main {
+  background-color: pink;
+  height: 85vh;
+  width: calc(100% - 200px);
+}
+
+.banner {
+  background-color: #282828;
+  width: 100vw;
+  height: 15vh;
+}

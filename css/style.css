@@ -20,12 +20,14 @@
 aside {
   background-color: #000000;
   width: 200px;
-  height: 90vh;
+  /* height: 90vh; */
+  height: calc(100vh - 60px);
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
   color: #b3b3b3;
   position: relative;
+  overflow: auto;
 }
 
 aside .logo{
@@ -76,6 +78,7 @@ aside .aside-bottom {
   right: 0;
   left: 0;
   padding: 10px;
+  background-color: black;
 }
 
 aside .aside-bottom .icon-box:first-of-type{
@@ -87,33 +90,46 @@ aside .aside-bottom hr {
 }
 
 main {
-  background-color: pink;
+  background-color: #141922;
   /* height: 90vh; */
-  height: calc(90vh - 70px);
+  height: calc(100vh - 70px);
   width: calc(100% - 200px);
   overflow-y: auto;
   /* padding-top: 70px; */
   margin-top: 70px;
   padding: 30px;
+  color: #ffffff;
 }
 
  main .main-top {
    height: 70px;
-   background-color: lightblue;
+   background-color: #080b12;
    position: absolute;
    top: 0;
    left: 200px;
    right:0;
+   display: flex;
+ }
+
+ main .main-top button {
+   text-transform: uppercase;
+   flex-direction: row-reverse;
+   justify-content: flex-end;
+   align-self: center;
  }
 
 .banner {
   background-color: #282828;
   width: 100vw;
-  height: 10vh;
+  /* height: 10vh; */
+  height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
+  bottom: 0 ;
+  z-index: 10;
 }
 
 .banner .banner-box {

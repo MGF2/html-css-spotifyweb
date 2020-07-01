@@ -9,6 +9,7 @@
   display: table;
   clear: both;
 }
+
 .b {
   color: white;
 }
@@ -97,7 +98,7 @@ main {
   overflow-y: auto;
   /* padding-top: 70px; */
   margin-top: 70px;
-  padding: 30px;
+  padding: 15px 30px;
   color: #ffffff;
 }
 
@@ -109,14 +110,70 @@ main {
    left: 200px;
    right:0;
    display: flex;
+   justify-content: flex-end;
  }
 
  main .main-top button {
    text-transform: uppercase;
-   flex-direction: row-reverse;
-   justify-content: flex-end;
+   height: 30px;
    align-self: center;
+   background-color: transparent;
+   border: 1px solid white;
+   color: white;
+   padding: 0 20px;
+   border-radius: 25px;
  }
+/* NAVBAR */
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+main nav ul li {
+  list-style: none;
+  width: 130px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+main nav ul li button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+  color: #b3b3b3;
+  margin: 0 10px;
+}
+/* FINE NAVBAR */
+
+
+.row .album {
+  /* height: 10px; */
+  width: 130px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.row .album .album-img{
+  height: 130px;
+  width: 130px;
+}
+
+.row .album .album-img img{
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}
+
+.row .album .album-text {
+  height: 50px;
+  width: 130px;
+  text-align: center;
+}
 
 .banner {
   background-color: #282828;

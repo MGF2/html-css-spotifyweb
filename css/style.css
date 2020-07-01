@@ -88,9 +88,23 @@ aside .aside-bottom hr {
 
 main {
   background-color: pink;
-  height: 90vh;
+  /* height: 90vh; */
+  height: calc(90vh - 70px);
   width: calc(100% - 200px);
+  overflow-y: auto;
+  /* padding-top: 70px; */
+  margin-top: 70px;
+  padding: 30px;
 }
+
+ main .main-top {
+   height: 70px;
+   background-color: lightblue;
+   position: absolute;
+   top: 0;
+   left: 200px;
+   right:0;
+ }
 
 .banner {
   background-color: #282828;

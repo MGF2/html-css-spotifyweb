@@ -18,6 +18,8 @@
   display: flex;
 }
 
+/* INIZIO ASIDE */
+
 aside {
   background-color: #000000;
   width: 200px;
@@ -90,6 +92,9 @@ aside .aside-bottom hr {
   margin-bottom: 10px;
 }
 
+/* FINE ASIDE */
+
+/* INIZIO MAIN */
 main {
   background-color: #141922;
   /* height: 90vh; */
@@ -123,6 +128,8 @@ main {
    padding: 0 20px;
    border-radius: 25px;
  }
+ /* FINE MAIN */
+
 /* NAVBAR */
 nav {
   text-align: center;
@@ -151,7 +158,6 @@ main nav ul li button {
 
 
 .row .album {
-  /* height: 10px; */
   width: 130px;
   float: left;
   margin-top: 10px;
@@ -174,7 +180,7 @@ main nav ul li button {
   width: 130px;
   text-align: center;
 }
-
+/* INIZIO PLAYER */
 .player {
   background-color: #282828;
   width: 100vw;
@@ -190,10 +196,10 @@ main nav ul li button {
 }
 
 .player .player-box {
-  width: 300px;
+  width: 350px;
   height: 100%;
   border: 1px solid tomato;
-  /* padding: 5px; */
+  color: white;
 }
 .nowplaying {
   display: flex;
@@ -205,7 +211,6 @@ main nav ul li button {
   width: 60px;
   height: 58px;
   object-fit: contain;
-  /* border: 1px solid yellow; */
   padding: 7px;
 }
 
@@ -237,29 +242,38 @@ main nav ul li button {
   height: 48%;
   width: 100%;
   text-align: center;
+  display: flex;
+  align-items: center;
   border: 1px solid yellow;
 
 }
 
-.player-box {
-  color: white;
+.player-box .p-bottom .bar {
+  height: 5px;
+  width: 80%;
+  background-color: gray;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+.player-box .p-bottom .bar .barcol{
+  height: 5px;
+  width: 25%;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .player-box .center{
-  /* display: flex; */
   align-items: center;
 }
 
-/* .player-box .right{
-  text-align: right;
-} */
 .player-box .right  {
   display: flex;
 }
 
 .player .volume-box {
   display: flex;
-  /* align-items: center; */
   text-align: right;
   width: 100%;
 }
+/* FINE PLAYER */

@@ -175,7 +175,7 @@ main nav ul li button {
   text-align: center;
 }
 
-.banner {
+.player {
   background-color: #282828;
   width: 100vw;
   /* height: 10vh; */
@@ -189,9 +189,77 @@ main nav ul li button {
   z-index: 10;
 }
 
-.banner .banner-box {
-
+.player .player-box {
   width: 300px;
   height: 100%;
   border: 1px solid tomato;
+  /* padding: 5px; */
+}
+.nowplaying {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.player .player-box .player-box-img{
+  width: 60px;
+  height: 58px;
+  object-fit: contain;
+  /* border: 1px solid yellow; */
+  padding: 7px;
+}
+
+.player .player-box .player-box-img img{
+  height: 45px;
+  width: 45px;
+}
+
+.player .player-box .player-box-text{
+  float: left;
+}
+.player .player-box .player-box-icons{
+  margin-left: 45px;
+}
+
+.player .player-box .player-box-icons i{
+  margin-left: 5px;
+}
+
+.player-box .p-top {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  /* flex: none; */
+  line-height: 30px;
+}
+
+.player-box .p-bottom {
+  height: 48%;
+  width: 100%;
+  text-align: center;
+  border: 1px solid yellow;
+
+}
+
+.player-box {
+  color: white;
+}
+
+.player-box .center{
+  /* display: flex; */
+  align-items: center;
+}
+
+/* .player-box .right{
+  text-align: right;
+} */
+.player-box .right  {
+  display: flex;
+}
+
+.player .volume-box {
+  display: flex;
+  /* align-items: center; */
+  text-align: right;
+  width: 100%;
 }

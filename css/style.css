@@ -155,7 +155,9 @@ main nav ul li button {
   margin: 0 10px;
 }
 /* FINE NAVBAR */
-
+.row {
+  margin-bottom: 20px;
+}
 
 .row .album {
   width: 130px;
@@ -178,7 +180,16 @@ main nav ul li button {
 .row .album .album-text {
   height: 50px;
   width: 130px;
-  text-align: center;
+  /* text-align: center; */
+}
+
+small {
+  color: #65696d;
+}
+
+h4 {
+  margin-top: 5px;
+  overflow: hidden;
 }
 
 /* MAIN HOVER */

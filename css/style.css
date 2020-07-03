@@ -92,6 +92,16 @@ aside .aside-bottom hr {
   margin-bottom: 10px;
 }
 
+aside .activelinehome {
+  height: 20px;
+  width: 2px;
+  background-color: #90d32c;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  /* top: 15%; */
+}
+
 /* FINE ASIDE */
 
 /* INIZIO MAIN */
@@ -143,6 +153,7 @@ main nav ul li {
   width: 130px;
   float: left;
   margin-bottom: 10px;
+  position: relative;
 }
 
 main nav ul li button {
@@ -154,9 +165,19 @@ main nav ul li button {
   color: #b3b3b3;
   margin: 0 10px;
 }
+
+main nav ul li .activeline {
+  width: 20%;
+  height: 2px;
+  background-color: #90d32c;
+  border-radius: 20px;
+  position: absolute;
+  left: 42%;
+}
+
 /* FINE NAVBAR */
 .row {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .row .album {
@@ -164,6 +185,7 @@ main nav ul li button {
   float: left;
   margin-top: 10px;
   margin-right: 10px;
+  margin-bottom: 25px;
 }
 
 .row .album .album-img{
@@ -181,6 +203,10 @@ main nav ul li button {
   height: 50px;
   width: 130px;
   /* text-align: center; */
+}
+
+.row .album .artist {
+  border-radius: 50%;
 }
 
 small {

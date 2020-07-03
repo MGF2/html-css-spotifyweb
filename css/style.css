@@ -180,6 +180,36 @@ main nav ul li button {
   width: 130px;
   text-align: center;
 }
+
+/* MAIN HOVER */
+.ms-overlay  {
+  display: none;
+}
+
+.album-img {
+  position: relative;
+}
+
+.album-img:hover .ms-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 18, 15, 0.7);
+}
+
+.ms-overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 45px;
+  color: white;
+}
+/* FINE MAIN HOVER */
+
 /* INIZIO PLAYER */
 .player {
   background-color: #282828;

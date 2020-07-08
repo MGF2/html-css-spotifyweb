@@ -415,6 +415,13 @@ h4 {
 
   main  {
     width: calc(100% - 70px);
-    height: calc(100vh - 70px);
+  }
+
+  .player-box .nowplaying .player-box-icons {
+    margin-left: 20px;
+  }
+
+  .center {
+    min-width: 201px;
   }
 }

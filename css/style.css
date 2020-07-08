@@ -374,3 +374,47 @@ h4 {
   align-self: center;
 }
 /* FINE PLAYER */
+
+
+@media screen and (max-width: 768px ) {
+
+  aside  {
+    width: 70px;
+    padding: 0;
+  }
+
+  aside .icon-box {
+    display: block;
+    text-align: center;
+    margin-left: 14px;
+  }
+
+  aside .icon-box i:last-of-type {
+    font-size: 25px;
+  }
+
+  aside .sidebar p , aside ul , .playlist h4 , .icon-box small {
+    display: none;
+    padding-left: 35px;
+  }
+
+  aside .logo img {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+
+  aside .aside-bottom hr {
+    width: 105%;
+  }
+
+  main .main-top {
+    left: 70px;
+
+  }
+
+  main  {
+    width: calc(100% - 70px);
+    height: calc(100vh - 70px);
+  }
+}
